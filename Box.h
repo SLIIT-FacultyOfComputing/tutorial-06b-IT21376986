@@ -9,3 +9,22 @@ class Box {
  
        int calcVolume();
 };
+
+
+#include<iostream>
+using namespace std;
+
+class Box{
+	private:
+		int length;
+		int width;
+		int height;
+	public:
+		void setLength(int l);
+		void setWidth(int w);
+		void setHeight(int h);
+		int getLength();
+		int getWidth();
+		int getHeight();
+		int calcVolume();
+};
