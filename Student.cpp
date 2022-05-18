@@ -16,9 +16,9 @@ Student::display() {
 #include <iostream>
 
 // Assign studentId and name
-Student :: assignDetails() {
-	studentID = 1010;
-	strcpy(name, "kamal");
+Student :: assignDetails(int sid, const char sname[]) {
+	studentID = sid;
+	strcpy(name, sname);
 }
 
 // Display StudentId and Name
