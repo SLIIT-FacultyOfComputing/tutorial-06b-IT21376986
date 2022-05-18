@@ -4,6 +4,18 @@ class Student {
   //    name <- 20 charcters
   
   // public section
-  //    assignDetails() method declaration
+  //    assignDetails() method dclaration
   //    display() method declaration
+};
+
+#include<iostream>
+using namespace std;
+
+class Student{
+	private:
+		int studentID;
+		char name[20];
+	public:
+		assignDetails();
+	    display();
 };
